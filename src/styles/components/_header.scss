@@ -1,0 +1,22 @@
+.header {
+  background: $bluegray-hbg;
+  color: $bluegray-hfg;
+  margin-bottom: 2.8rem;
+  padding: 0;
+}
+
+// BEM naming convention (block element modifier)
+// block: something big, e.g.: header
+// element: things that goes inside a block
+
+.header__title {
+  font-size: $l-size;
+  margin: 0;
+  padding: 1rem 0 0 0;
+}
+.header__subtitle {
+  font-size: $m-size;
+  color: $bluegray-mid;
+  margin: 0;
+  padding: 0 0 1rem 0;
+}

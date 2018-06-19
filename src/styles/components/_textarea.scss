@@ -1,0 +1,18 @@
+.intext {
+  // background-color: green;
+  border-right: 5px solid $bluegray-hbg;
+  // width: 50%;
+  // flex: 1;
+}
+.outtext {
+  // color: red;
+  color: $bluegray-hbg;
+  background-color: lighten($bluegray-mid, 23%);
+  padding: 0 1rem;
+  margin: 0;
+  flex: 1;
+}
+textarea#intext {
+  width: 98%;
+  // height: 80%;
+}
