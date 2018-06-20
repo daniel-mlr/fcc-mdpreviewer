@@ -18,6 +18,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
+    "express": "^4.16.3",
     "marked": "^0.3.19",
     "mini-css-extract-plugin": "^0.4.0",
     "node-sass": "^4.9.0",
