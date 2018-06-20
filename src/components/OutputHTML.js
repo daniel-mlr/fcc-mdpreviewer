@@ -5,6 +5,6 @@ import React from 'react'
 const marked = require('marked')
 
 const OutputHTML = (props) => (
-  <div dangerouslySetInnerHTML={{__html: marked(props.intext)}}></div>
+  <div id="preview" dangerouslySetInnerHTML={{__html: marked(props.intext)}}></div>
 )
 export default OutputHTML

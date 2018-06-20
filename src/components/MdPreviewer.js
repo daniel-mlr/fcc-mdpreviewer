@@ -22,10 +22,8 @@ class MdPreviewer extends Component {
               updateMarkdown={ this.updateMarkdown }>
             </InputText>
           </div>
-          <div className='outtext'>
-            <OutputHTML className='outtext' intext={ this.state.markdown }>
-            </OutputHTML>
-          </div>
+          <OutputHTML className='outtext' intext={ this.state.markdown }>
+          </OutputHTML>
         </div>
       </div>
     )
